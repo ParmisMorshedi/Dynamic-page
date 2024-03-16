@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+/*menu*/
+#SideNav{    
+    background-color: rgb(53, 52, 52); 
+    height: 40px;  
+}
+  nav ul{
+    text-align: center;
+    padding: 0; 
+}
+  nav li {
+    display: inline-block;
+}
+  
+  nav li a{
+   
+    text-decoration: none; /* Delet underline */  
+    color: rgb(13, 13, 13);
+    font-weight: bold;
+    margin-right: 17px; /*Space between buttons */
+    padding: 8px 15px;  /*Color box size on the buttons*/
+    border-radius: 4px; /*border for hover*/
+    transition: 0.6s;
+}
+ 
+ 
+  nav a{
+    display: inline-block;
+  
+}
+ nav li a:hover{
+    transform: scale(1.2) ; /*Buttons gets bigger */
+    background-color: rgba(162, 198, 181, 0.869); 
+}
+ 
+/* In which page you are  */
+nav a.active {
+
+     background-color: rgba(179, 187, 179, 0.869);
+     color: #fff;
+     padding: 8px 15px;
+     border-radius: 3px;
+     
+}
+  
+    @media (max-width: 650px){
+      nav ul{
+        display: flex;
+        justify-content: center;        
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 0;
+         
+    }
+      nav li{
+    margin: 0;
+    }
+  
+}
+ 

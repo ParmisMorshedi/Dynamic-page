@@ -1,0 +1,35 @@
+/*Footer*/
+
+    .footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: rgb(53, 52, 52);
+        color: rgba(255, 255, 255, 0.623);
+        font-size: 11pt;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .footer-contact p {
+        margin-left: 15px;
+    }
+    
+    #text-socialmedia {
+        text-align: right;
+    }
+    
+    #text-socialmedia p {
+        margin-right: 14rem;
+    }
+    
+    #text-socialmedia a {
+        margin-right: 23px;
+    }
+   
+
+
+
