@@ -3,12 +3,23 @@ import resumeData from './data.json';
 
 export default function Resume() {
   const [data, setData] = useState(null);
+  const [graphSection, setGraphSection]= useState(null);
 
 
 
   useEffect(() => {
+    var test = document.getElementById("graph");
+    if (test){
+        console.log(test)
+        test.classList.add("show");
+
+    }
+ 
+    
+      
+ 
     setData(resumeData); 
- }, []);
+ }, [data]);
 
 
 
@@ -17,7 +28,12 @@ export default function Resume() {
 
   if (!data) {
     return null;
+
   }
+  
+   
+  
+  
     return(
         <div className='resume'>
                

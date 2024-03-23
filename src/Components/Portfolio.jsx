@@ -17,10 +17,10 @@
             .then((data) => {
                 // Select the projects with index 3, 6, 7 and 14 from the data
                 const selectProjects = [
-                    { ...data[3], imageUrl: 'https://i.postimg.cc/T1tT6tPQ/pexels-cottonbro-studio-5989943.jpg'},
-                    { ...data[6], imageUrl: 'https://i.postimg.cc/t4MtTbfG/rsz-backend-4496461-640.jpg' }, 
-                    { ...data[7], imageUrl: 'https://i.postimg.cc/NG4n0qfd/26562851-s.jpg' },
-                    { ...data[15], imageUrl: 'https://i.postimg.cc/yYYjdDkG/pexels-sean-p-twomey-17194345-1.jpg' },
+                    { ...data[3], imageUrl: 'https://imgtr.ee/images/2024/03/23/21975d11238fa711b0e08431c34192c1.jpeg'}, //cv-hemsida
+                    { ...data[8], imageUrl: 'https://imgtr.ee/images/2024/03/23/b495d1e48a8306476a99652286b5ca5b.jpeg' }, 
+                    { ...data[7], imageUrl: 'https://imgtr.ee/images/2024/03/23/0ccf05ebfbb3f06f7cb18dc930d6b972.jpeg' },
+                    { ...data[16], imageUrl: 'https://imgtr.ee/images/2024/03/23/a041d9ff27dc46bf20c96b7fec09a8c5.jpeg' }, //Tread
                 ];
                    
                 
