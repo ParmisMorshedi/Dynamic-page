@@ -3,7 +3,7 @@
 export default function Aboutme(){
     return(
         <>
-            <img src="src/assets/photos/pexels-oleksandr-p-1008000 copy.jpg" className ='picture'alt="Girl" />
+            
             <div className="text">
                 <h1>About me:</h1>
                 <div className="box">

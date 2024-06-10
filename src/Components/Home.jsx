@@ -15,15 +15,14 @@ export default function Home (){
                         <span className="e">E</span>
                         <span className="exclamation">!</span>
                     </h3>
-                   
+                  
                 </section>
                 <section id="Home">
-                    <div className="Home-box">
-                        <img src="src/assets/photos/IMG_7293 2 copy.JPG" alt="Parmis photo" />
+                    <div className="Home-box">                      
                         <div className="overlay" />
                         <div className="Home-desc">
                             <h1>I<strong><span>'</span></strong>m Parmis Morshedi<span>.</span></h1>
-                            <p>Fullstack .net developer</p>
+                            <p>Fullstack .net developer student</p>
                         </div>
                     </div>
                     <div className="btn-about">

@@ -84,49 +84,50 @@ export default function Resume() {
                 <h1>My Knowledge Level in Software</h1>
                 <div className="text_oerlay">
                     <ul>
-                    <li>
-                        <span className="subject1">
-                        {" "}
-                        DATABASE
-                        <div className="div1" style={{ backgroundColor: "#0bf350" }}>
-                            <span className="percentage">70%</span>
-                        </div>
-                        </span>
-                    </li>
-                    <li>
-                        <span className="subject2">
-                        .NET
-                        <div className="div2" style={{ backgroundColor: "#0bf350" }}>
-                            <span className="percentage">75%</span>
-                        </div>
-                        </span>
-                    </li>
-                    <li>
-                        <span className="subject3">
-                        PHOTOSHOP
-                        <div className="div3" style={{ backgroundColor: "#0bf350" }} >
-                            <span className="percentage">50%</span>
-                        </div>
-                        </span>
-                    </li>
-                    <li>
-                        <span className="subject4">
-                        JAVASCRIPT
-                        <div className="div4" style={{ backgroundColor: "#0bf350" }}>
-                            <span className="percentage">20%</span>
-                        </div>
-                        </span>
-                    </li>
-                    <li>
-                        <span className="subject5">
-                        HTML &amp; CSS
-                        <div className="div5" style={{ backgroundColor: "#0bf350" }}>
-                            <span className="percentage">55%</span>
-                        </div>
-                        </span>
-                    </li>
+                        <li>
+                            <span className="subject1">
+                             
+                                DATABASE
+                                <div className="div1" style={{ backgroundColor: "#0bf350" }}>
+                                    <span className="percentage">70%</span>
+                                </div>
+                            </span>
+                        </li>
+                        <li>
+                            <span className="subject2">
+                            .NET
+                                <div className="div2" style={{ backgroundColor: "#0bf350" }}>
+                                    <span className="percentage">75%</span>
+                                </div>
+                            </span>
+                        </li>
+                        <li>
+                            <span className="subject3">
+                            PHOTOSHOP
+                                <div className="div3" style={{ backgroundColor: "#0bf350" }} >
+                                    <span className="percentage">50%</span>
+                                </div>
+                            </span>
+                        </li>
+                        <li>
+                            <span className="subject4">
+                            JAVASCRIPT
+                                <div className="div4" style={{ backgroundColor: "#0bf350" }}>
+                                    <span className="percentage">20%</span>
+                                </div>
+                            </span>
+                        </li>
+                        <li>
+                            <span className="subject5">
+                            HTML &amp; CSS
+                                <div className="div5" style={{ backgroundColor: "#0bf350" }}>
+                                    <span className="percentage">55%</span>
+                                </div>
+                            </span>
+                        </li>
                     </ul>
                 </div>
+
                 </section>                          
         </div>
    );

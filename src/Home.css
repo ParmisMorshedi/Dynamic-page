@@ -40,7 +40,7 @@
 /*Home section*/
 #Home {
   width:100%;
-  padding:100px 0;
+  padding:203PX 0 ;
   background:radial-gradient(#5d6d69, #000000);
   text-align: center;
   box-sizing: border-box;
@@ -51,23 +51,16 @@
 
   width: 100%;
   max-width: 1000px;
-  display:flex;
-  flex-wrap: wrap;
-  justify-content: space-around; 
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
   margin: auto;
-  flex-basis: 48%;
   border-radius: 7px;
-  text-align: center;
   position: relative;
 
 
+}
 
-}
-.Home-box img{
-  width: 30%;
- 
-  /* border-radius: 70px; */
-}
 .overlay{
   width: 100%;
   height: 100%;
@@ -85,13 +78,12 @@
 
 }
 .Home-desc{
-  width: 50%; 
-  transform: translateX(-27%);
-  transition: 0.9s;
-  margin-right:20px;
-  margin-top: 12%;
-  color: rgba(233, 244, 235, 0.928);   
-}
+  width: 100%; 
+  max-width: 500px; 
+  text-align: center;
+  margin-top: 20px; 
+} 
+
 
 .Home-box span {
   color: rgb(0, 255, 255);
@@ -99,81 +91,27 @@
 
 
 .Home-box p { 
-  margin-top: 10%;
-
-} 
-
-@media (max-width: 650px){
+  margin-top: 10PX ;
+  justify-content: center;
   
-  .Home-desc p { 
-      margin-left: 3px;
-  
-  } 
-  .Home-desc h1{
-      margin-left: 10px;
-  }
- 
- 
+
 }
 
-
-/*button*/
-
-.btn-about{
-  margin-left: 370px;
+/* button */
+.btn-about, .btn-print {
+  margin: 10px 0;
+  text-align: center;
+  width: 100%;
 }
 
-.btn-about a{
-  width: 120px; 
+.btn-about a, .btn-print a {
+  width: 120px;
   position: relative;
   text-decoration: none;
   display: inline-block;
   margin: 0 10px;
   padding: 12px 0;
-  top:10px;
-  right: 65px;
-  color:rgb(255, 255, 255);
-  border: 3px solid rgba(0, 0, 0, 0.262);
-  cursor: pointer;
-  background-color: rgba(166, 196, 177, 0.832);
-  transition: 1s; 
-   z-index: 1;
-  
- 
-}
-.btn-about a span{
-  width:0;
-  height: 100%;
-  position: absolute;
-  top:0;
-  left: 0;
-  background: rgba(102, 110, 102, 0.558);
-  z-index: -1;
-  transition: 0.5s;
-
-}
-
-.btn-about a:hover span{
-  width: 100%;
-}
-.btn-about a:hover{
-  background-color: rgb(255, 255, 255);
-}
-
-button{ 
-  all: initial;   /*reset all properties to their initial values*/
-  color: white;  
-
-}
-
-.btn-print {
-
-  width: 120px;
-  position: relative;
-  display: inline-block;   
-  padding: 12px 0;   
-  right: 5px;
-  bottom: 38px;
+  color: rgb(255, 255, 255);
   border: 3px solid rgba(0, 0, 0, 0.262);
   cursor: pointer;
   background-color: rgba(166, 196, 177, 0.832);
@@ -181,7 +119,7 @@ button{
   z-index: 1;
 }
 
-.btn-print span {
+.btn-about a span, .btn-print a span {
   width: 0;
   height: 100%;
   position: absolute;
@@ -192,27 +130,61 @@ button{
   transition: 0.5s;
 }
 
-.btn-print:hover span {
+.btn-about a:hover span, .btn-print a:hover span {
   width: 100%;
 }
 
-.btn-print:hover {
+.btn-about a:hover, .btn-print a:hover {
   background-color: rgb(255, 255, 255);
 }
 
-@media (max-width: 650px){
-    
-  .Home-desc p { 
-      margin-left: 3px;
-  
-  } 
-  .Home-desc h1{
-      margin-left: 10px;
-  }
- 
- 
+button {
+  all: initial;
+  color: white;
 }
 
+@media (max-width: 650px) {
+  #Home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
+  .Home-desc {
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+  }
+
+  .btn-about, .btn-print {
+    margin: 10px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .btn-about a, .btn-print a {
+    margin: 0 auto;
+  }
+
+  #Home h1 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  #Home p {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .Home-desc p {
+    margin: 0 auto;
+  }
+
+  .Home-desc h1 {
+    margin: 0 auto;
+  }
+}
 
 

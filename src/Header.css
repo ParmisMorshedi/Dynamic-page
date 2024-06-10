@@ -52,15 +52,16 @@ nav a.active {
     @media (max-width: 650px){
       nav ul{
         display: flex;
-        justify-content: center;        
-        align-items: center;
-        flex-wrap: wrap;
+        margin: 0;
         padding: 0;
-         
-    }
+        justify-content: center;
+        list-style-type: none; 
+      }
       nav li{
-    margin: 0;
-    }
+        margin:0 -8px ;
+       
+      }
+      
   
 }
  
